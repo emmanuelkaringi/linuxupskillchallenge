@@ -52,6 +52,14 @@ This includes all the source material for the 20 lessons of what was previously 
 * [Day 20](docs/20.md) - **Scripting**: Understanding how scripting work in Linux, the shebang, permissions and $PATH. A couple of simple sample scripts based on the filtering of logs we've been doing. Resources to explore further.
 * [Day 21](docs/21.md) - **What's next?**: Closing the course with some suggestions.
 
+
+## Journal
+
+The `/journal` directory contains
+
+- [Day 0](journal/day0.md)
+- [Day 1](journal/day1.md)
+
 *You are free to use this under the terms of the license, but feel free to donate or contribute to keep the challenge running:*
 <p>
   <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors&label=Be%20a%20Sponsor!"></a>
