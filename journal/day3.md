@@ -1,29 +1,45 @@
-This Journal contains Day 3 (Power Trip), Day 4 (Install & Config files) and Day 5 (Command line basics)
+This journal contains Day 6 (Vim Crash Course), Day 7 (Installing Apache), Day 8 (Text Processing)
 
-# Day 3 - Power Trip!
+# Day 6 - Vim Crash Course
 
-- Login with root - `sudo su` / `sudo -i`
-- Reboot `sudo reboot`
-- Check logs ()- `less /var/log/auth.log`
-- Filter to chexk all occurences of 'sudo' - `grep "sudo" /var/log/auth.log`
-- Get the hostname - `hostnamectl`
-- Set / change the hostname of the computer - `sudo hostnamectl set-hostname somename`
-- Check the current system clock time - `timedatectl`
-- Set local time of the system clock directly - `sudo timedatectl set-time yyyy-mm-dd hh:mm:ss`
-List available timezones - `timedatectl list-timezones`
-- Set / change timezone - `sudo timedatectl set-timezone timezone`
-- Enable Network Time Protocol(NTP) synchronization - `timedatectl set-ntp on`
+- Check Vim version - `vi --version`
+- Create file - `vi filname`
+- Close without saving - `:q` or `:q!` to force quit.
+- Open a file - `vim filename` eg. `vim services` can also be used to create a file if it does not exist.
+- Save file - `:w`
+- Save as - `:w newfilename`
+- Save and close - `:wq`
+- Insert mode - `i`
+- Get back to normal mode - `esc` button.
+- Visual mode - `v`
+- Delete entire line - `dd`
+- Copy/yank - `y` in visual mode(`v`)
+- Copy entire line - `yy`
+- Paste - `p`
+- Revert or undo - `u`
+- Redo - `crtl + R`
+- Find a phrase - `/phrase`, `n` to go to the next.
+- Find and Replace - `:%s/oldword/newword/gc`
 
-# Day 4 - Install & Config files
+# Day 7 - Installing Apache
 
-- Search application - `apt search "application name"`
-The package name is the first name before the OS version e.g: mc/focal 3:4.8.24-2ubuntu1 amd64. The package name is `mc`.
-- Install packege - `sudo apt install mc`
-- Access Configuration file - `less /etc/ssh/sshd_config`
+- Install Apache - `sudo apt install httpd`
+- Check status of the web server or any process - `sudo systemctl status httpd`
+- To start webserver - `sudo systemctl start httpd`
+- Stop or restart the server - `sudo systemctl stop/restart httpd`
+- Configure the web server to start with each system boot - `sudo systemctl enable httpd`. The opposite is `disable`
+- Change the default index file - `sudo vim /var/www/html/index.html`
+- Check logs - `less /var/log/httpd/access.log`
 
-# Day 5 - Command line basics
+# Day 8 - Text Processing
 
-- Paginate texts appearing on the terminal - `more filelocation or name` `more /var/log/auth.log` or `less`
-- Check command history - `history`, `history 5/8/10 etc`, ``
-- To repeat a command - `!number of command(position)`
-- File that stores the commands history - `less ~/.bash_history`
+- Display message on the screen - `echo "Hello World"`
+- Print on the screen the content of a file - `cat filename`
+- Print on the screen but in reverse - `tac filename`
+- Print the first few lines - `head filename` e.g. `head -5 filename` print first five lines.
+- Print the last few lines - `tail filename`
+- Word count - `wc -l filename`
+- Print only the unique lines - `uniq filename`
+- `grep "searchterm" filename`
+- Append information - `echo "hello world" filename`
+- Pipping

@@ -53,15 +53,17 @@ This includes all the source material for the 20 lessons of what was previously 
 * [Day 21](docs/21.md) - **What's next?**: Closing the course with some suggestions.
 
 
+*You are free to use this under the terms of the license, but feel free to donate or contribute to keep the challenge running:*
+<p>
+  <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors&label=Be%20a%20Sponsor!"></a>
+  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 114px !important;" ></a>
+</p>
+
 ## Journal
 
 The `/journal` directory contains
 
 - [Day 0](journal/day0.md)
 - [Day 1](journal/day1.md)
-
-*You are free to use this under the terms of the license, but feel free to donate or contribute to keep the challenge running:*
-<p>
-  <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors&label=Be%20a%20Sponsor!"></a>
-  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 114px !important;" ></a>
-</p>
+- [Day 2](journal/day2.md)
+- [Day 3](journal/day3.md)
