@@ -1,3 +1,5 @@
+This Journal contains Day 1 (Get to know your server) and Day 2 (Basic Navigation)
+
 # Day 1 - Get to know your server, Basic navigation
 
 ### RTFM (Reading the manual is the first thing)
